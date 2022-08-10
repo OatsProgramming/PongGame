@@ -2,7 +2,6 @@
 import pygame
 import os
 from sys import exit
-import time
 
 os.system('clear')
 pygame.init()
@@ -70,7 +69,7 @@ win = False
 x_pos = None
 
 # Text
-text_font = pygame.font.Font('/Users/jaliljusay/Documents/Python_Files/Python Lessons and notes/Pygame Tutorial/font for tutorial/Pixeltype.ttf', 50)
+text_font = pygame.font.Font('/Users/username/Documents/Python_Files/Python Lessons and notes/Pygame Tutorial/font for tutorial/Pixeltype.ttf', 50)
 winner_text = text_font.render('You win!', False, 'White')
 restart_text = text_font.render('Press Space to restart', False, 'grey')
 restart_text = pygame.transform.scale(restart_text, (200, 25))
